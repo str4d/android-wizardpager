@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package net.i2p.android.wizard.model;
+package com.example.android.wizardpager.wizard.model;
 
 import java.util.ArrayList;
 import java.util.Arrays;
