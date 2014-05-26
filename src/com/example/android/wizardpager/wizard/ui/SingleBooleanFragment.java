@@ -14,11 +14,8 @@
  * limitations under the License.
  */
 
-package net.i2p.android.wizard.ui;
+package com.example.android.wizardpager.wizard.ui;
 
-import net.i2p.android.router.R;
-import net.i2p.android.wizard.model.Page;
-import net.i2p.android.wizard.model.SingleFixedBooleanPage;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -28,6 +25,10 @@ import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.TextView;
+
+import com.example.android.wizardpager.R;
+import com.example.android.wizardpager.wizard.model.Page;
+import com.example.android.wizardpager.wizard.model.SingleFixedBooleanPage;
 
 public class SingleBooleanFragment extends Fragment {
     private static final String ARG_KEY = "key";
