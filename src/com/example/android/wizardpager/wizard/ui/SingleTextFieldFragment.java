@@ -14,11 +14,8 @@
  * limitations under the License.
  */
 
-package net.i2p.android.wizard.ui;
+package com.example.android.wizardpager.wizard.ui;
 
-import net.i2p.android.router.R;
-import net.i2p.android.wizard.model.Page;
-import net.i2p.android.wizard.model.SingleTextFieldPage;
 
 import android.app.Activity;
 import android.content.Context;
@@ -31,6 +28,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
+
+import com.example.android.wizardpager.R;
+import com.example.android.wizardpager.wizard.model.Page;
+import com.example.android.wizardpager.wizard.model.SingleTextFieldPage;
 
 public class SingleTextFieldFragment extends Fragment {
     private static final String ARG_KEY = "key";
@@ -64,7 +65,7 @@ public class SingleTextFieldFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_wizard_page_text_field, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_page_single_text_field, container, false);
         ((TextView) rootView.findViewById(android.R.id.title)).setText(mPage.getTitle());
         ((TextView) rootView.findViewById(R.id.wizard_text_field_desc)).setText(mPage.getDesc());
 

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package net.i2p.android.wizard.model;
+package com.example.android.wizardpager.wizard.model;
 
 import java.util.ArrayList;
 
-import net.i2p.android.wizard.ui.SingleBooleanFragment;
-
 import android.support.v4.app.Fragment;
+
+import com.example.android.wizardpager.wizard.ui.SingleBooleanFragment;
 
 public class SingleFixedBooleanPage extends Page {
     protected String mDesc = "";

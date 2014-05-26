@@ -14,14 +14,16 @@
  * limitations under the License.
  */
 
-package net.i2p.android.wizard.model;
+package com.example.android.wizardpager.wizard.model;
 
-import net.i2p.android.wizard.ui.SingleTextFieldFragment;
+
+import java.util.ArrayList;
 
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
 
-import java.util.ArrayList;
+import com.example.android.wizardpager.wizard.ui.SingleTextFieldFragment;
+
 
 /**
  * A page asking for a text field.
